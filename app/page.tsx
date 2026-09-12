@@ -1,5 +1,5 @@
 import ImageResizer from '@/components/image-resizer';
-import AdsterraAd from '@/components/ui/adsterraad';
+import AdsterraAd from '@/components/ui/AdsterraAd';
 import {
   Wand2,
   CheckCircle2,
