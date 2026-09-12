@@ -1,4 +1,5 @@
 import ImageResizer from '@/components/image-resizer';
+import adsterraad from '@/components/ui/adsterraad';
 import {
   Wand2,
   CheckCircle2,
@@ -58,14 +59,7 @@ export default function Home() {
 
       {/* Ad Slot 1 - Top banner 728x90 */}
       <div className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
-        <div className="mx-auto flex h-[90px] max-w-[728px] items-center justify-center rounded-lg border-2 border-dashed border-border bg-muted/20">
-          <div className="text-center">
-            <p className="text-xs font-semibold text-muted-foreground/60">
-              Ad Space
-            </p>
-            <p className="text-[10px] text-muted-foreground/40">728×90</p>
-          </div>
-        </div>
+        <AdsterraAd type="TOP" />
       </div>
 
       {/* Main tool section */}
@@ -86,14 +80,7 @@ export default function Home() {
 
         {/* Ad Slot 3 - Bottom banner after tool */}
         <div className="mt-8">
-          <div className="mx-auto flex h-[90px] max-w-[728px] items-center justify-center rounded-lg border-2 border-dashed border-border bg-muted/20">
-            <div className="text-center">
-              <p className="text-xs font-semibold text-muted-foreground/60">
-                Ad Space
-              </p>
-              <p className="text-[10px] text-muted-foreground/40">728×90</p>
-            </div>
-          </div>
+          <AdsterraAd type="BOTTOM" />
         </div>
 
         {/* SEO Content Section */}
