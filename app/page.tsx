@@ -1,10 +1,5 @@
 import ImageResizer from '@/components/image-resizer';
-// upar import me
 import AdsterraAd from '@/components/ui/adsterraad';
-
-// aur niche jaha ad lagana hai waha
-<AdsterraAd type="TOP" />
-<AdsterraAd type="BOTTOM" />
 import {
   Wand2,
   CheckCircle2,
@@ -90,7 +85,6 @@ export default function Home() {
 
         {/* SEO Content Section */}
         <div className="mx-auto mt-16 max-w-3xl">
-          {/* What is ResizeCraft Pro */}
           <section className="mb-10">
             <h2 className="mb-4 text-xl font-bold text-foreground sm:text-2xl">
               What is ResizeCraft Pro?
@@ -113,7 +107,6 @@ export default function Home() {
             </p>
           </section>
 
-          {/* How to Resize in 3 Steps */}
           <section className="mb-10">
             <h2 className="mb-4 text-xl font-bold text-foreground sm:text-2xl">
               How to Resize Images in 3 Steps
@@ -167,7 +160,6 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Why Resize Images */}
           <section className="mb-10">
             <h2 className="mb-4 text-xl font-bold text-foreground sm:text-2xl">
               Why Resize Images?
@@ -230,7 +222,6 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Feature highlights */}
           <section className="mb-10">
             <h2 className="mb-4 text-xl font-bold text-foreground sm:text-2xl">
               Key Features
@@ -286,7 +277,6 @@ export default function Home() {
             </div>
           </section>
 
-          {/* FAQ */}
           <section className="mb-10">
             <h2 className="mb-4 text-xl font-bold text-foreground sm:text-2xl">
               Frequently Asked Questions
@@ -356,7 +346,6 @@ export default function Home() {
         </div>
       </main>
 
-      {/* Footer */}
       <footer className="border-t border-border bg-muted/20">
         <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center text-center">
@@ -372,22 +361,13 @@ export default function Home() {
               Made for creators. No login needed.
             </p>
             <div className="mb-4 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">
-              <a
-                href="#"
-                className="text-muted-foreground transition-colors hover:text-primary"
-              >
+              <a href="#" className="text-muted-foreground transition-colors hover:text-primary">
                 Privacy Policy
               </a>
-              <a
-                href="#"
-                className="text-muted-foreground transition-colors hover:text-primary"
-              >
+              <a href="#" className="text-muted-foreground transition-colors hover:text-primary">
                 Terms
               </a>
-              <a
-                href="#"
-                className="text-muted-foreground transition-colors hover:text-primary"
-              >
+              <a href="#" className="text-muted-foreground transition-colors hover:text-primary">
                 Contact
               </a>
             </div>
