@@ -1,3 +1,8 @@
+"use client";
+
+import { useEffect, useRef, useState } from 'react';
+// ... baaki ka code same ...
+
 import { useEffect, useRef, useState } from 'react';
 
 interface Props {
