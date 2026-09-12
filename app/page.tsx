@@ -1,5 +1,10 @@
 import ImageResizer from '@/components/image-resizer';
-import adsterraad from '@/components/ui/adsterraad';
+// upar import me
+import AdsterraAd from '@/components/ui/adsterraad';
+
+// aur niche jaha ad lagana hai waha
+<AdsterraAd type="TOP" />
+<AdsterraAd type="BOTTOM" />
 import {
   Wand2,
   CheckCircle2,
